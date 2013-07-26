@@ -7,6 +7,7 @@ public class Consumer
 {
 	public static void main(String[] args) throws Exception
 	{
+		
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[] { "consumer.xml" });
 		context.start();
 
